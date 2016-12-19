@@ -1,0 +1,32 @@
+{
+  "name": "chatapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+     "react": "~0.11.2",
+     "node-jsx": "~0.11.0",
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "nodemon": "*",
+    "reactify": "*",
+    "uglify-js": "*",
+    "watchify": "*",
+    "webpack":"*"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
